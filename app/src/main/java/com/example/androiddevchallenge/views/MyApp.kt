@@ -27,7 +27,7 @@ fun MyApp() {
             "${MyNavigation.Details.routeName}/{petId}",
             arguments = listOf(navArgument("petId") { type = NavType.IntType })
         ) {
-            DetailsPage(id = it.arguments?.getInt("petId") ?: 0) }
+            DetailsPage(navController, id = it.arguments?.getInt("petId") ?: 0) }
 
     }
 }
