@@ -5,12 +5,12 @@ import com.example.androiddevchallenge.model.Pet
 
 object PetData {
     val pets = listOf<Pet>(
-        Pet(1, "Spaniel", "Dog", "spaniel-cocker", "0xff000000", R.drawable.p1, "India"),
-        Pet(2, "Schnauzer", "Dog", "schnauzer-giant", "0xff000000", R.drawable.p2, "India"),
-        Pet(3, "Malamute", "Dog", "malamute", "0xff000000", R.drawable.p3, "India"),
-        Pet(4, "Bluetick", "Dog", "bluetick", "0xff000000", R.drawable.p4, "India"),
-        Pet(5, "Cairn", "Dog", "cairn", "0xff000000", R.drawable.p5, "India"),
-        Pet(6, "Bengal", "Cat", "Bengal", "0xff000000", R.drawable.p6, "India"),
+        Pet(1, "Spaniel", "Dog", "This beautiful and uncommon creature is a type of dog.", "0xff000000", R.drawable.p1, "India"),
+        Pet(2, "Schnauzer", "Dog", "This amazing, but often seen creature is a type of dog.", "0xff000000", R.drawable.p2, "Germany"),
+        Pet(3, "Malamute", "Dog", "This weird and incredibly rare creature is a type of dog.", "0xff000000", R.drawable.p3, "Australia"),
+        Pet(4, "Bluetick", "Dog", "This special and seldom seen creature is a type of dog.", "0xff000000", R.drawable.p4, "USA"),
+        Pet(5, "Cairn", "Dog", "This amazing and nearly extinct creature is a type of dog. ", "0xff000000", R.drawable.p5, "UK"),
+        Pet(6, "Bengal", "Cat", "This amusing, but extremely common creature is a type of cat. ", "0xff000000", R.drawable.p6, "Europe"),
     )
 
 }

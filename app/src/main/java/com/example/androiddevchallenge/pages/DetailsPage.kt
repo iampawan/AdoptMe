@@ -32,7 +32,7 @@ fun DetailsPage(navController: NavHostController, id: Int){
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("Details") },
+                title = { Text("Meet ${pets[id-1].name}") },
                 backgroundColor = MaterialTheme.colors.background,
                 contentColor = Color.Black,
                 navigationIcon = {
